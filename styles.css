@@ -1,0 +1,85 @@
+/* CSS - Cascading Style Sheets: Responsible for styling of page */
+body {
+    color: #414141;    /* Dark gray */ /* Notes looks like this */
+    background-color: #EEEEEE; /* Light gray */
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+em, strong {
+    background-color: #B2D6FF; /* Light blue */
+    display: inline;
+}
+
+h1 {
+    font-size: 5em;
+    color: #555555;
+    padding: 0em 1em;
+    border: 0em dotted #B2D6FF; /* Border: Size/Width Style Color */
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 1.6em;
+    background-color: #B2D6FF;
+    border-radius: 50px;
+    padding: 0em 0.6em;
+}
+
+ul {
+    list-style-type: square; /* Various types of bulletpoints */
+}
+
+ol {
+    list-style-type: decimal-leading-zero; /* Various types of numbering */
+}
+
+a { /* Anchor Link */
+    text-decoration: underline; /*line-through if strikethrough*/
+}
+
+p {
+    text-align: left; /*others: right, center, justify*/
+    font-family: "Proxima Nova", "Arial", sans-serif;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 0.3em;
+    padding-right: 0.3em; /* Or can be re-written as padding: 20px 10px; */
+}
+
+.section-headers { /* Need a dot in the front to select the class */
+    border: 0.025em dotted #B2D6FF; /* Border: Size/Width Style Color */
+    border-radius: 50px;
+    background-color: rgb(203, 255, 255);
+    margin-bottom: 50px;
+}
+
+div {
+    color: #FFF;
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+  }
+
+#profile-picture { /* For img id 'class' selector */
+    border: 2px solid black;
+}
+
+.about-me-div {
+    color: #333333;
+    background-color: aliceblue;
+    width: 100%;
+}
+
+
+
+/* Flex - #pond = parent container - apply it to parent container */
+/* (1) justify-content & (2) align-items */

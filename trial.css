@@ -1,0 +1,23 @@
+/* Two column layout */
+/* class is . id is # */
+#parent {
+    background-color: DodgerBlue; /* if there's no height it will not appear */
+    height: 500px;
+    display: flex; /* Remember that flex is for PARENT */
+    /* justify-content: center */
+    /* flex-items: flex-end */
+  }
+  
+  #child-1 {
+    background-color: Red;
+    height: 200px;
+    width: 50%;
+  }
+  
+  #child-2 {
+    background-color: Blue;
+    height: 200px;
+    width: 50%;
+  }
+
+  
